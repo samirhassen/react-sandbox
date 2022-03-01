@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.title {
+  clear: both;
+  width: 100%;
+}
+.form {
+  clear: both;
+}
+.form input,
+.form textarea {
+  width: 100%;
+  margin: 5px;
+}

@@ -4,8 +4,19 @@ export class CountComponent extends Component {
   state = {
     count: 1,
   };
+  // componentDidMount() 
+  // {
+  //   alert("Test");
+  // }
+
   clickHandler() {
       this.state.count++;
+
+      if(this.state.count < 5) {
+          return 'not found'
+      }
+      else 
+        return this.state.count
   }
   render() {
     return (
